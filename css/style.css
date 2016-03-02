@@ -1,0 +1,10 @@
+html, body {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+html {
+  background-image: url("http://i792.photobucket.com/albums/yy202/dainty-ish/misc/54995c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
