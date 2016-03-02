@@ -1,6 +1,13 @@
+*{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-;
+  box-sizing: border-box;
+}
+
 html, body {
-  min-width: 100%;
+  width: 100%;
   min-height: 100%;
+  margin: 0;
 }
 
 html {
@@ -8,3 +15,49 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.tic-tac-toe {
+  margin: 60px auto;
+  width: 540px;
+  height: 540px;
+}
+
+
+
+.row {
+  display: block;
+  width: 540px;
+  height: 180px;
+  margin: 0;
+}
+
+
+
+
+
+div[class*="col"] {
+  display: block;
+  float: left;
+  background-color: transparent;
+  border: 1px solid black;
+  width: 180px;
+  height: 180px;
+  margin: 0;
+}
+
+div[class*="1"]{
+  border-left: none;
+}
+
+div[class*="3"]{
+  border-right: none;
+}
+
+div.first {
+  border-top: none;
+}
+
+div.last {
+  border-bottom: none;
+}
+
