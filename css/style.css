@@ -31,10 +31,6 @@ html {
   margin: 0;
 }
 
-
-
-
-
 div[class*="col"] {
   display: block;
   float: left;
@@ -45,19 +41,11 @@ div[class*="col"] {
   border-radius: 5px;
 }
 
-/*div[class*="1"]{
-  border-left: none;
+div.X {
+  background-color: rgba(100,0,0,0.5);
 }
 
-div[class*="3"]{
-  border-right: none;
+div.O {
+  background-color: rgba(0,100,0,0.5);
 }
 
-div.first {
-  border-top: none;
-}
-
-div.last {
-  border-bottom: none;
-}
-*/
