@@ -38,14 +38,14 @@ html {
 div[class*="col"] {
   display: block;
   float: left;
-  background-color: transparent;
-  border: 1px solid black;
-  width: 180px;
-  height: 180px;
-  margin: 0;
+  margin: 2px;
+  background-color: rgba(0,0,0,0.5);
+  width: 175px;
+  height: 175px;
+  border-radius: 5px;
 }
 
-div[class*="1"]{
+/*div[class*="1"]{
   border-left: none;
 }
 
@@ -60,4 +60,4 @@ div.first {
 div.last {
   border-bottom: none;
 }
-
+*/
